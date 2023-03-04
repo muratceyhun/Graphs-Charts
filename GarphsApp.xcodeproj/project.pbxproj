@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		430E874829B34CF000EBA930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E874729B34CF000EBA930 /* AppDelegate.swift */; };
+		430E874A29B34CF000EBA930 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E874929B34CF000EBA930 /* SceneDelegate.swift */; };
+		430E874C29B34CF000EBA930 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E874B29B34CF000EBA930 /* ViewController.swift */; };
+		430E874F29B34CF000EBA930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430E874D29B34CF000EBA930 /* Main.storyboard */; };
+		430E875129B34CF100EBA930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430E875029B34CF100EBA930 /* Assets.xcassets */; };
+		430E875429B34CF100EBA930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430E875229B34CF100EBA930 /* LaunchScreen.storyboard */; };
+		430E875C29B34F9400EBA930 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E875B29B34F9400EBA930 /* SecondViewController.swift */; };
+		430E875E29B34F9E00EBA930 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E875D29B34F9E00EBA930 /* ThirdViewController.swift */; };
+		430E876029B35C9C00EBA930 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E875F29B35C9C00EBA930 /* TabBarController.swift */; };
+		8AC72EC37B6D5B079326C97D /* Pods_GarphsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4CE69C72ADD719738AA743 /* Pods_GarphsApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		430E874429B34CF000EBA930 /* GarphsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GarphsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		430E874729B34CF000EBA930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		430E874929B34CF000EBA930 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		430E874B29B34CF000EBA930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		430E874E29B34CF000EBA930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		430E875029B34CF100EBA930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		430E875329B34CF100EBA930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		430E875529B34CF100EBA930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		430E875B29B34F9400EBA930 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		430E875D29B34F9E00EBA930 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		430E875F29B35C9C00EBA930 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		58CF89B5406A684999E955B4 /* Pods-GarphsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarphsApp.release.xcconfig"; path = "Target Support Files/Pods-GarphsApp/Pods-GarphsApp.release.xcconfig"; sourceTree = "<group>"; };
+		5C9BFCD6DB87EFC5E4502139 /* Pods-GarphsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarphsApp.debug.xcconfig"; path = "Target Support Files/Pods-GarphsApp/Pods-GarphsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EF4CE69C72ADD719738AA743 /* Pods_GarphsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GarphsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		430E874129B34CF000EBA930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC72EC37B6D5B079326C97D /* Pods_GarphsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		267FDCB9724422660A8613B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C9BFCD6DB87EFC5E4502139 /* Pods-GarphsApp.debug.xcconfig */,
+				58CF89B5406A684999E955B4 /* Pods-GarphsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		430E873B29B34CF000EBA930 = {
+			isa = PBXGroup;
+			children = (
+				430E874629B34CF000EBA930 /* GarphsApp */,
+				430E874529B34CF000EBA930 /* Products */,
+				267FDCB9724422660A8613B6 /* Pods */,
+				6DAC253552F9CE8EE2FEF046 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		430E874529B34CF000EBA930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				430E874429B34CF000EBA930 /* GarphsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		430E874629B34CF000EBA930 /* GarphsApp */ = {
+			isa = PBXGroup;
+			children = (
+				430E874729B34CF000EBA930 /* AppDelegate.swift */,
+				430E874929B34CF000EBA930 /* SceneDelegate.swift */,
+				430E875F29B35C9C00EBA930 /* TabBarController.swift */,
+				430E874B29B34CF000EBA930 /* ViewController.swift */,
+				430E875B29B34F9400EBA930 /* SecondViewController.swift */,
+				430E875D29B34F9E00EBA930 /* ThirdViewController.swift */,
+				430E874D29B34CF000EBA930 /* Main.storyboard */,
+				430E875029B34CF100EBA930 /* Assets.xcassets */,
+				430E875229B34CF100EBA930 /* LaunchScreen.storyboard */,
+				430E875529B34CF100EBA930 /* Info.plist */,
+			);
+			path = GarphsApp;
+			sourceTree = "<group>";
+		};
+		6DAC253552F9CE8EE2FEF046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CE69C72ADD719738AA743 /* Pods_GarphsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		430E874329B34CF000EBA930 /* GarphsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 430E875829B34CF100EBA930 /* Build configuration list for PBXNativeTarget "GarphsApp" */;
+			buildPhases = (
+				D3F2925F3A45B394C6A05EF7 /* [CP] Check Pods Manifest.lock */,
+				430E874029B34CF000EBA930 /* Sources */,
+				430E874129B34CF000EBA930 /* Frameworks */,
+				430E874229B34CF000EBA930 /* Resources */,
+				F988CD924CFF0909B3506B53 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GarphsApp;
+			productName = GarphsApp;
+			productReference = 430E874429B34CF000EBA930 /* GarphsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		430E873C29B34CF000EBA930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					430E874329B34CF000EBA930 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 430E873F29B34CF000EBA930 /* Build configuration list for PBXProject "GarphsApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 430E873B29B34CF000EBA930;
+			productRefGroup = 430E874529B34CF000EBA930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				430E874329B34CF000EBA930 /* GarphsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		430E874229B34CF000EBA930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430E875429B34CF100EBA930 /* LaunchScreen.storyboard in Resources */,
+				430E875129B34CF100EBA930 /* Assets.xcassets in Resources */,
+				430E874F29B34CF000EBA930 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D3F2925F3A45B394C6A05EF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GarphsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F988CD924CFF0909B3506B53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GarphsApp/Pods-GarphsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GarphsApp/Pods-GarphsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GarphsApp/Pods-GarphsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		430E874029B34CF000EBA930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430E875C29B34F9400EBA930 /* SecondViewController.swift in Sources */,
+				430E874C29B34CF000EBA930 /* ViewController.swift in Sources */,
+				430E875E29B34F9E00EBA930 /* ThirdViewController.swift in Sources */,
+				430E876029B35C9C00EBA930 /* TabBarController.swift in Sources */,
+				430E874829B34CF000EBA930 /* AppDelegate.swift in Sources */,
+				430E874A29B34CF000EBA930 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		430E874D29B34CF000EBA930 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				430E874E29B34CF000EBA930 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		430E875229B34CF100EBA930 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				430E875329B34CF100EBA930 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		430E875629B34CF100EBA930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		430E875729B34CF100EBA930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		430E875929B34CF100EBA930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C9BFCD6DB87EFC5E4502139 /* Pods-GarphsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C7T7MNSP5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GarphsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muratceyhun.GarphsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		430E875A29B34CF100EBA930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CF89B5406A684999E955B4 /* Pods-GarphsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C7T7MNSP5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GarphsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muratceyhun.GarphsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		430E873F29B34CF000EBA930 /* Build configuration list for PBXProject "GarphsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430E875629B34CF100EBA930 /* Debug */,
+				430E875729B34CF100EBA930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		430E875829B34CF100EBA930 /* Build configuration list for PBXNativeTarget "GarphsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430E875929B34CF100EBA930 /* Debug */,
+				430E875A29B34CF100EBA930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 430E873C29B34CF000EBA930 /* Project object */;
+}

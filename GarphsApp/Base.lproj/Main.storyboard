@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yhw-GD-efu">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="wHi-ll-Hv0">
+            <objects>
+                <tabBarController id="yhw-GD-efu" customClass="TabBarController" customModule="GarphsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="2IC-tI-qDc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.91764706370000004" green="0.20000001789999999" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="VP3-I0-pdw" kind="relationship" relationship="viewControllers" id="VFk-Fw-uoh"/>
+                        <segue destination="nNI-m8-Sma" kind="relationship" relationship="viewControllers" id="OCn-TS-m8U"/>
+                        <segue destination="NCj-nP-ldY" kind="relationship" relationship="viewControllers" id="EnE-O6-JIj"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FzN-y5-V2s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-234" y="-792"/>
+        </scene>
+        <!--Bar-->
+        <scene sceneID="Mas-pN-Uyf">
+            <objects>
+                <viewController id="R4x-tX-URJ" customClass="ViewController" customModule="GarphsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IhP-4M-CVb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="LEe-h1-HI6"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bar" id="pgf-Ix-pqa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vK3-U6-9Vn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1869" y="806"/>
+        </scene>
+        <!--Bar-->
+        <scene sceneID="rTI-Ao-w1x">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VP3-I0-pdw" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Bar" id="93s-lC-bq9"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="UIt-b9-BcH">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="R4x-tX-URJ" kind="relationship" relationship="rootViewController" id="REv-pO-FXC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NqH-qH-olN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1869" y="106"/>
+        </scene>
+        <!--Line-->
+        <scene sceneID="5NU-Qt-awe">
+            <objects>
+                <viewController id="iYQ-Sz-E8U" customClass="SecondViewController" customModule="GarphsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HpX-QW-ImN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ccS-nt-GAX"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Line" id="01T-6M-YCw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7HC-ea-skP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-234" y="807"/>
+        </scene>
+        <!--Line-->
+        <scene sceneID="Yr1-ym-p2a">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nNI-m8-Sma" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Line" id="szT-oh-mZs"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Mew-Ca-ofC">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="iYQ-Sz-E8U" kind="relationship" relationship="rootViewController" id="J6Q-n9-4Fg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="loh-3s-fM1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-233" y="106"/>
+        </scene>
+        <!--Pie-->
+        <scene sceneID="fMZ-Et-HSp">
+            <objects>
+                <viewController id="o4d-mw-P31" customClass="ThirdViewController" customModule="GarphsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i9j-gr-ddn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ZVf-oY-sgq"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pie" id="FmI-mQ-V2X"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gjp-sg-pO0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1462" y="806"/>
+        </scene>
+        <!--Pie-->
+        <scene sceneID="dPO-Ry-EdV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NCj-nP-ldY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Pie" id="wSc-cT-Kea"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="fM8-Xg-1vB">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="o4d-mw-P31" kind="relationship" relationship="rootViewController" id="jgZ-5d-xCi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O1K-cz-GvP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1463" y="106"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
