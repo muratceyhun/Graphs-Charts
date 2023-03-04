@@ -9,15 +9,11 @@ import UIKit
 import Charts
 
 class ThirdViewController: UIViewController, ChartViewDelegate {
-    
     var pieChart = PieChartView()
-
     override func viewDidLoad() {
         super.viewDidLoad()
         pieChart.delegate = self
-
     }
-    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
@@ -39,11 +35,5 @@ class ThirdViewController: UIViewController, ChartViewDelegate {
         set.colors = ChartColorTemplates.pastel()
         let data = PieChartData(dataSet: set)
         pieChart.data = data
-        
     }
-    
-    
-    
-
-
 }

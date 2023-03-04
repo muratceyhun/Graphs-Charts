@@ -37,8 +37,6 @@ class ViewController: UIViewController {
         var data = BarChartData(dataSet: set)
         barChart.data = data
     }
-
-
 }
 
 extension ViewController: ChartViewDelegate {

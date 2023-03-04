@@ -39,6 +39,4 @@ class SecondViewController: UIViewController, ChartViewDelegate {
         lineChart.data = data
         
     }
-    
-
 }
