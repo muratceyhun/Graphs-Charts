@@ -38,8 +38,6 @@ class ViewController: UIViewController {
         barChart.data = data
     }
 }
-
 extension ViewController: ChartViewDelegate {
-    
 }
 

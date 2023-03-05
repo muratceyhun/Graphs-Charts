@@ -35,8 +35,6 @@ class SecondViewController: UIViewController, ChartViewDelegate {
         let set = LineChartDataSet(entries: entries)
         set.colors = ChartColorTemplates.liberty()
         let data = LineChartData(dataSet: set)
-        
         lineChart.data = data
-        
     }
 }
